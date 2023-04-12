@@ -1,16 +1,22 @@
-# scanapp
+# AES Encryption and QR Code Transfer in Flutter
 
-A new Flutter project.
+This Flutter application demonstrates how to use AES encryption to securely transfer data through QR codes. The application takes a message and a secret key as inputs, encrypts the message using AES encryption, generates a QR code image of the encrypted message, and displays the QR code on the screen. The receiver can then scan the QR code with a mobile device or webcam, decode the QR code image to obtain the encrypted message, and decrypt the message using the same secret key.
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+This application requires the following dependencies:
 
-A few resources to get you started if this is your first Flutter project:
+- `encryptor`: for AES encryption
+- `qr_flutter`: for generating QR codes
+- `qr_code_scanner`: for scanning QR codes
+- `shared_preferences`: for local data storage
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Usage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To run the application, clone the repository and run `flutter pub get` to install the dependencies. Then, run the application on an emulator or a physical device using `flutter run`.
+
+To use the application, enter all the registration details this will generate your local profile .Now by clicking on "QR ICON NEXT TO PROFILE" button an AES encrypted QR will be generated. Some other person can also create his/her profile and can decrypt this code using "Scan QR Code" button.
+
+## Note
+
+This application uses the `qr_code_scanner` dependency to open camera on web platform. However, this dependency is not supported by all browsers.
