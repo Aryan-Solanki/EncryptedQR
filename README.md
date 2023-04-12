@@ -1,6 +1,6 @@
 # AES Encryption and QR Code Transfer in Flutter
 
-This Flutter application demonstrates how to use AES encryption to securely transfer data through QR codes. The application takes a message and a secret key as inputs, encrypts the message using AES encryption, generates a QR code image of the encrypted message, and displays the QR code on the screen. The receiver can then scan the QR code with a mobile device or webcam, decode the QR code image to obtain the encrypted message, and decrypt the message using the same secret key.
+This Flutter application demonstrates how to use AES encryption to securely transfer data through QR codes. The application takes a details of user then encrypts them using AES encryption, generates a QR code image of the same, and displays the QR code on the screen. The receiver can then scan the QR code with the same application , decode the QR code image to obtain the user profile details.
 
 ## Requirements
 
