@@ -15,7 +15,7 @@ This application requires the following dependencies:
 
 To run the application, clone the repository and run `flutter pub get` to install the dependencies. Then, run the application on an emulator or a physical device using `flutter run`.
 
-To use the application, enter all the registration details this will generate your local profile .Now by clicking on "QR ICON NEXT TO PROFILE" button an AES encrypted QR will be generated. Some other person can also create his/her profile and can decrypt this code using "Scan QR Code" button.
+To use the application, enter all the registration details this will generate your local profile .Now by clicking on "QR Icon next to profile image" button an AES encrypted QR will be generated. Some other person can also create his/her profile and can decrypt this code using "Scan QR Code" button.
 
 ## Note
 
